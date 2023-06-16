@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+label{
+    padding: 10px;
+      
+}
+.forms{
+    border: 1px solid black;
+    padding: 20px;
+}
+#email ,#name,#country {
+    margin-bottom: 15px;
+}
+.subbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

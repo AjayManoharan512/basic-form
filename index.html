@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <h1 id="h11">form</h1>
+    <div class="container">
+        <form class="forms">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" value="Ajay" placeholder="enter the name.."><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="@.com"><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="India" selected>India</option>
+                <option value="Australia" >Australia</option>
+                <option value="America">America</option>
+            </select><BR>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="others" value="others">
+            <label for="others">Others</label><br>
+
+            <label for="Hobbies">Hobbies:</label>
+            <input type="checkbox" name="hobbies[]" value="movies">
+            <label for="movies">Movies</label>
+            <input type="checkbox" name="hobbies[]" value="cricket" checked>
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" name="hobbies[]" value="reading" checked>
+            <label for="reading">Reading</label>
+
+            <div class="subbtn">
+                <button id="sbtn">Submit</button>
+            </div>
+
+
+
+
+
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
